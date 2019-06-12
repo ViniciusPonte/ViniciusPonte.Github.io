@@ -1,0 +1,146 @@
+PERGUNTAS GERAIS
+--O que é o Java e por que preciso dele?
+Java é uma linguagem de programação e plataforma computacional lançada pela primeira vez pela Sun Microsystems em 1995. Existem muitas aplicações e sites que não funcionarão, a menos que você tenha o Java instalado, e mais desses são criados todos os dias. O Java é rápido, seguro e confiável. De laptops a datacenters, consoles de games a supercomputadores científicos, telefones celulares à Internet, o Java está em todos os lugares!
+
+--O que receberei ao fazer o download do software java?
+O Java Runtime Environment (JRE) é o que você recebe ao fazer o download do software Java. O JRE é composto pela Java Virtual Machine (JVM), pelas classes de núcleo da plataforma Java e bibliotecas da plataforma Java para suporte. O JRE é a parte de runtime do software do software Java, que é o necessário para executá-lo no seu Web browser.
+
+--Qual a diferença entre java e javascript?
+Em primeiro lugar, Javascript não é propriamente uma linguagem de programação, é uma linguagem de "scripting" que não é compilada e executada. Sua execução é feita pelo navegador, e dele depende. Já os programas construídos com a linguagem Java são independentes de plataforma, compilados na "máquina virtual Java". A relação entre a máquina virtual Java (JVM) e a máquina real na qual o programa deve ser executado é feita pelo navegador.
+Java é uma linguagem orientada a objetos. Embora seja possível escrever programas procedurais em Java, a linguagem é concebida para a criação de objetos. Javascript, por sua vez, não é orientada a objetos, e não permite a definição de classes como é feita em Java, com herança e implementação de interfaces. 
+No nível da sintaxe da linguagem, a diferença mais importante entre Java e Javascript resulta da primeira ser uma linguagem fortemente tipada, enquanto a outra é o extremo oposto. Em Java as operações e funções estão definidas para tipos específicos de variáveis, e a tentativa de aplicar uma operação ou função numa variável de tipo diferente ao definido resulta em erro, enquanto em Javascript tudo é permitido!
+Escrever e executar programas em Javascript é muito mais simples e fácil do que em Java. Em Java é necessário conhecer as classes que compõem as interfaces gráficas que permitem a interação e o controle do programa pelo usuário, as chamadas "GUI" (Graphical User Interface), e suas propriedades e métodos, de forma a integrar recursos de interação ao programa. Em Java é possível escrever dois tipos de programa, o aplicativo (application) e o applet, e para escrever qualquer um dos tipos é necessário conhecer muitos detalhes da erstrutura geral da linguagem. Para culminar, é necessário ter instalado no computador um ambiente para o desenvolvimento de programa em Java, o chamado JDK (Java Development Kit), que compila e executa os programas. Esse ambiente, que deve ser pelo menos o fornecido pela companhia Sun, para "download" gratuito, é bastante grande e exige também o conhecimento de alguns detalhes que podem contribuir para complicar a introdução à computação, desviando a atenção do principal para os detalhes num momento muito precoce.
+
+--O que é o Java Deployment Toolkit?
+O Java DT é uma ferramenta muito útil usada por applets e aplicações para obter a versão correta do Java existente no sistema do usuário. Para desenvolvedores, o Java DT também fornece uma interface JavaScript. A interface gera automaticamente o código HTML necessário para implantar RIAs (Rich Internet Applications).
+
+--Por que são exibidas mensagens de que É Preciso Atualizar o Java: Sua Versão do Java está desatualizada ou Sua versão do Java não é segura?
+Ao encontrar a página que inclui a aplicação Java e sua versão do Java estiver desatualizada, a mensagem É Preciso Atualizar o Java será exibida. Recomendamos que você clique em Atualizar para abrir a página de download java.com para obter a versão mais recente do Java. Se você optou por clicar em Bloquear, o plug-in Java será desativado no browser e as aplicações Java talvez não sejam executadas no browser até que o Java seja atualizado.
+
+--Informações do JAVA 8
+O Java 8 é a release mais recente do Java que contém novas funcionalidades, aprimoramentos e correções de bug para aumentar a eficiência do desenvolvimento e execução de programas Java. A nova release do Java primeiro é disponibilizada para desenvolvedores, a fim de permitir um tempo adequado de teste e certificação, e só então fica disponível no site java.com para que usuários finais façam download.
+Funcionalidades:
+Métodos de Expressão Lambda e Extensão Virtual
+O destaque do Java SE 8 é a implementação de expressões Lambda e funcionalidades de suporte para a linguagem de programação e plataforma Java.
+API de Data e Hora
+Essa nova API permitirá que os desenvolvedores tratem data e hora de maneira mais natural, clara e fácil de entender.
+Nashhorn JavaScript Engine
+Uma nova implementação leve de alto desempenho do motor JavaScript foi integrada ao JDk e está disponível para aplicações Java por meio das APIs existentes.
+Maior Segurança
+A lista manual existente de métodos sensíveis do chamador foi substituída por um mecanismo que identifica com precisão esses métodos e permite que seus chamadores sejam descobertos com confiança.
+
+--Conceitos e Definições
+Applet
+Um applet é um componente de software (código de programa) que é transferido por download pelo browser para fornecer funcionalidade em uma página web. Os applets Java fornecem recursos interativos em um Web browser por meio da Java Virtual Machine (JVM).
+
+Marcar/Selecionar
+Um método por meio do qual os usuários indicam sua entrada em uma caixa de diálogo ou em uma página Web, clicando em uma caixa de seleção com o cursor para inserir uma marca de seleção ou posicionando o cursor em um botão gráfico de opção e clicando para "pressionar" o botão. 
+
+Caixa de Diálogo
+Uma janela especial em uma interface gráfica de usuário que fornece uma informação ao usuário ou solicita entrada. 
+
+Ativar/Desativar
+Configurações de software acessíveis ao usuário para ativar ou desativar determinados recursos ou funcionalidades. São úteis para resolver problemas de configuração do Java quando os usuários forem solicitados a usar uma caixa de diálogo para ativar ou desativar uma determinada configuração ou função.
+
+Firewall
+Firewalls da Internet podem ser software ou hardware que protege seu computador de ataques externos da Internet que representem ameaças à sua segurança na Internet, bem como aos arquivos no seu computador. A funcionalidade de firewall permite que você configure regras para permitir ou negar a passagem de tráfego da internet. 
+
+Java Archive (JAR)
+O Java Archive (.jar) é um formato de arquivo usado para empacotar vários arquivos em um único archive. Em geral, um arquivo JAR contém os arquivos de classe e recursos auxiliares associados a applets e aplicações. 
+
+Plug-in Java
+A tecnologia de plug-in Java faz parte do Java Runtime Environment e estabelece um conexão entre browsers populares e a plataforma Java. Essa conexão permite que applets em Web sites a serem executados em um browser na área de trabalho. 
+
+Cache do Java Runtime Environment (JRE)
+Uma área de armazenamento no console Java, que às vezes deve ser limpa manualmente para permitir o carregamento e a instalação da versão mais recente do Java. 
+
+Java Virtual Machine (JVM)
+No Java, é um conjunto de programas de software que permite a execução de instruções – geralmente escritas em bytecode Java. Os JVMs estão disponíveis para todas as plataformas de software e hardware mais comuns. 
+
+javaw.exe
+O processo javaw.exe é um programa, pertencente à Oracle, inc., que funciona junto com o browser Internet Explorer como um plug-in Java. Este Programa é semelhante ao programa java.exe. A única diferença é que o processo javaw.exe não tem janela de console quando em execução. Se não quiser ver uma janela de prompt de comando, o processo javaw.exe devera ser o mais provavelmente usado. O javaw.exe é um arquivo acionador que mostrará uma caixa de diálogo durante os momentos em que um falha na inicialização de um programa ocorre. 
+
+jucheck.exe
+O processo jucheck.exe é parte da instalação Java no Windows e verifica se há versões mais recentes do Java. O processo não instala o Java, e o notifica de que uma versão mais recente está pronta para fazer download. » Mais informações 
+
+IFTW
+Faça uma instalação por meio da Web ou uma instalação on-line. 
+
+Procedimentos de Instalação
+Os usuários do Java podem escolher três procedimentos de instalação - instalação on-line, off-line ou manual. 
+A instalação on-line ocorre automaticamente durante sua conexão com a Internet quando você clica no botão Download gratuito do Java.
+A instalação off-line exige o download de um arquivo executável listado em: Download manual do Java, que inclui todos os arquivos necessários à instalação completa conforme o usuário julgar apropriado. Não é necessário que o computador permaneça conectado à Internet durante a instalação. O arquivo também pode ser copiado para outro computador não conectado à Internet e instalado nele.
+A instalação manual faz download de um arquivo de programa executável IFTW (Instalação por Meio da Web) e requer intervenção mínima do usuário. Quando esse programa é executado, ele obtém todos os arquivos necessários na Web, portanto, é necessário que seu computador permaneça conectado à Internet durante a instalação.
+
+Manifesto
+O manifesto é um arquivo especial que pode conter informações sobre os arquivos incluídos em um arquivo JAR. 
+
+Sistema Operacional
+Um termo genérico para o software que gerencia as tarefas básicas dos recursos do computador e usado pelos programadores para acessar esses recursos. Os sistemas operacionais de desktop mais comuns incluem o Linux, o Mac OS X, o Microsoft Windows e o Solaris. 
+
+Parâmetro
+Em programação, é um valor passado para uma função. A função usa o parâmetro contido em sua tarefa ou executa uma operação no parâmetro. 
+
+Memória Física
+Na maioria das vezes em que esse termo aparece no site java.com, ele se refere a uma forma de armazenamento semicondutor em computadores conhecido como RAM (memória de acesso aleatório). 
+
+Processo
+Um termo geral que descreve um programa ativado para executar uma tarefa específica, normalmente, ao mesmo tempo que outros programas. 
+
+Servidor Proxy
+Computador intermediário entre o computador do usuário e a Internet. Pode ser utilizado para registrar o uso da Internet e também para bloquear o acesso a um site. O firewall do servidor proxy bloqueia alguns sites ou páginas Web por vários motivos. Como resultado, é possível que os usuários não consigam fazer download do Java ou executar alguns applets Java sem definir determinadas definições de proxy no Web browser do computador. 
+
+Definições de Proxy
+As configurações de proxy definidas corretamente permitem que os usuários se conectem à Internet quando houver um servidor proxy envolvido. Normalmente, os usuários precisam contatar o administrador de rede para obter as informações necessárias à definição das configurações de proxy. 
+
+JRE privado
+Ao instalar o JDK, ele instala um JRE privado e opcionalmente uma cópia pública. O JRE Privado é obrigatório para executar a ferramentas incluídas no JDK. Ele não tem definições de registro e está contido inteiramente em um diretório Java (em geral em C:\Program Files\jdk1.7.0\jre ) cuja localização é conhecida apenas para o JDK. 
+
+JRE público
+O JRE público Java pode ser usado por outras aplicações Java, está contido fora do JDK (tipicamente em C:\Program Files\Java\jre1.7.0). Ele é registrado no registro do Windows (em HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft). Ele pode ser removido usando Adicionar/Remover Programas e também é registrado nos browsers. 
+
+Cache do Web Browser
+O cache é uma área de armazenamento temporário que permite manter os dados acessados com frequência para um carregamento rápido. O cache de um Web browser mantém cópias das páginas acessadas por ele. Para solucionar determinados problemas de instalação ou de configuração do Java, algumas vezes é necessário limpar o cache manualmente acessando uma caixa de diálogo.
+
+Solução Alternativa
+Em geral, uma solução alternativa é uma correção temporária que ignora um problema de sistema identificado que está pendente, aguardando uma solução mais permanente.
+
+Segurança
+Lista de Sites de Exceção
+A funcionalidade Lista de Sites de Exceção permite que usuários finais executem applets Java e aplicações Java Web Start que não atendem aos requisitos de segurança mais atuais. As Aplicações Rich Internet que estão hospedadas em um site na lista de sites de exceção têm autorização para serem executadas com os prompts de segurança aplicáveis. 
+
+Data de Expiração do Java
+O JRE expira toda vez que uma nova release com correções de vulnerabilidades de segurança torna-se disponível. No caso de sistemas que não conseguem acessar os Oracle Servers, um mecanismo secundário expirará o JRE. Depois de uma das duas condições ser atendida (uma nova release estar disponível ou a data de expiração ser atingida), o Java fornecerá advertências e lembretes adicionais para os usuários, a fim de que eles façam a atualização para uma versão mais nova. Recomendamos enfaticamente que os usuários que recebam mensagens sobre data de expiração atualizem o Java para a release mais recente. 
+
+Nível de Segurança Básico
+O nível de segurança base é a atualização mínima recomendada para o Java. Não é recomendável que os usuários executem versões do Java que estejam abaixo do nível base de segurança mais recente. Cada versão principal do Java (como Java 6, Java 7) pode ter sua própria atualização de nível base de segurança. 
+
+Patch
+Refere - se a alterações incrementais feitas em uma instalação de software. Pode incluir correções de problemas gerais de desempenho e de segurança. 
+
+Atualização de Patch Crítico (CPU)
+As Atualizações de Patch Crítico são conjuntos de patches que contêm correções de segurança em uma programação disponível fixa e publicamente disponível para ajudar os clientes a reduzir os custos de gerenciamento de segurança. 
+
+Alerta de segurança
+A Oracle emitirá um Alerta de Segurança (ou seja, release de uma correção de segurança fora do programa de CPU normal) nos casos em que a urgência de uma correção requer que ela seja liberada antes da próxima Atualização de Patch Crítico. 
+
+CVE (Common Vulnerabilities and Exposures)
+Os números CVE são identificadores exclusivos comuns de informações conhecidas publicamente sobre as vulnerabilidades de segurança. O programa CVE é co-patrocinado pelo escritório de Cybersecurity and Communications do U.S. Department of Homeland Security e é gerenciado pela MITRE Corporation. 
+
+Autoridade de Certificação (CA, certificate authority)
+Uma Autoridade de Certificação é um terceiro confiável, geralmente um negócio comercial, que emite certificados digitais. Os certificados são emitidos para organizações ou indivíduos, depois da verificação de sua identidade. O certificado digital é adicionado às aplicações do computador para validar se a aplicação originou-se do proprietário do certificado. Para obter mais informações, consulte http://wikipedia.org/wiki/Certificate_authority. 
+
+Certificado confiável
+Se a aplicação tiver um certificado CA confiável, você verá um ícone de escudo azul e deverá se preocupar com alertas de advertência de triângulo amarelo (ícones de escudo ou de triângulo). Valide se uma aplicação é de um editor que pode ser verificado, chegando se ele foi certificado por uma CA confiável. 
+
+Certificado autoassinado
+Certificados autoassinados não são verificados por uma Autoridade de Certificação confiável. Aplicações desse tipo apresentam o nível mais alto de risco porque o editor não foi identificado. 
+
+Aplicação sandbox
+Refere-se ao nível de acesso a arquivos do sistema, tais como unidade de disco rígido, e à rede. O sandbox garante que uma aplicação não confiável e provavelmente mal-intencionada não tenha acesso a recursos do sistema. 
+
+Aplicações Assinadas e não Assinadas
+Assinatura de código é uma tecnologia de segurança por meio da qual as aplicações são assinados digitalmente para confirmar o autor ou editor do software. Aplicações assinadas refere-se a aplicações que foram assinadas pelo provedor de aplicações (autoassinado) ou uma Autoridade de Certificação. Isso não garante que o próprio código seja confiável, apenas que ele vem da origem declarada. Aplicações não assinadas refere-se a código que não foi assinada e, portanto, não é possível verificar a origem da aplicação. 
+
+Listas de Revogação de Certificados (CRLs) e Protocolo OCSP (Online Certificate Status Protocol)
+Essas são partes de um mecanismo comumente usado na Internet para verificar se um certificado utilizado por um desenvolvedor de aplicações para assinar seu trabalho ainda é válido. 

@@ -1,0 +1,4 @@
+arrumar o footer
+arrumar a tabela
+arrumar o index
+responsivo
