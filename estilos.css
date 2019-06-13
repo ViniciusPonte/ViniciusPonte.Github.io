@@ -22,20 +22,24 @@ nav img{
 }
 .menu{
     font-family: 'Fjalla One', sans-serif;
-    font-size: 25px;
-    padding:0rem;
+    font-size: 30px;
+    padding-left:2rem;
     background-color: #F7F8FF;
     justify-content: space-between;
     list-style: none;
     position: fixed;
     width: 100%;
-    height:14%;
+    height:12%;
     text-align: center;
     top:-25px;
     z-index: 1;
 }
 .menu li{
     position: relative;
+    font-family: 'Fjalla One', sans-serif;
+    font-size:25px;
+    padding: 0;
+    margin-right:15px;
     display: inline-block;
 }
 .menu a{
@@ -97,18 +101,97 @@ p, dd, td{
     border-radius: 20px;
     position:relative;
     left:50px;
-    right:50px;
     top:100px;
     opacity: 0.9;
     z-index: 0;
     display:block;
+    margin-right:0;
 }
 /*============================================PERFIL======================================================*/
-
+#perfil{
+    width: 60%;
+    border: 2px outset #f5f5f5;
+    position:relative;
+    margin-left:20%;
+    margin-right:20%;
+}
+#perfilimg{
+    text-align: center;
+}
+#perfilimg img{
+    border-radius:100px;
+    transition: all 1s ease;
+}
+#perfilimg img:hover{
+    box-shadow: 3px 3px gray;
+    transform: scale(1.1);
+}
+#perfiltext h3{
+    text-align: center;
+    margin-bottom:5px;
+}
+#perfiltext h4{
+    margin-top: 0;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+#texto{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
 /*============================================JAVA======================================================*/
-
+#javatext{
+    width:50%;
+    border: 2px #f5f5f5 outset;
+    margin:10px;
+}
+#bloco1, #bloco2, #bloco3{
+    width:100%;
+}
+#greenteam{
+    width:40%;
+    height:20%;
+}
+.block h1{
+    text-align: center;
+    font-size:30px;
+    font-family: 'Quicksand', sans-serif;
+}
+.block p, ul, li{
+    font-family: 'Montaga', serif;
+    text-align: justify;
+    font-size: 20px;
+    list-style:disc;
+}
+#greenteam{
+    height:300px;
+    width:400px;
+    margin-left:15%;
+    margin-bottom:5%;
+    position: relative;
+    transition: all 1s ease;
+    
+}
+#greenteam:hover{
+    box-shadow: 5px 5px gray;
+}
 /*============================================CISTERNAS======================================================*/
+#cisternatext{
+    width:50%;
+    border: 2px #f5f5f5 inset;
+    margin:10px;
+}
+#bloco4, #bloco5, #bloco6{
+    width:100%;
+}
 
+iframe{
+    position:relative;
+    margin-left:7%;
+    margin-bottom:10%;
+    
+}
 /*=====================================================================================DOWNLOAD=====================================================================================================================*/
 .funcionalidades{
     font-size: 20px;
@@ -127,7 +210,7 @@ table{
     position: relative;
     display: block;
     width: 90%;
-    border: 1px ridge black;
+    border:none;
     align-content: center;
     left: 60px;
     margin-bottom: 20px;
@@ -135,14 +218,17 @@ table{
 }
 .vantagem{
     width:50%;
-    background-color:#CFF3FF;
+    background-color:#FFF;
+    border: none;
 }
 .desvantagem{
     width:50%;
-    background-color:#CFF3FF;
+    background-color:#FFF;
+    border: none;
 }
 td{
-    background-color:#E0F3FF;
+    background-color:#FFF;
+    border: none;
 }
 /*===================================================================================FORMULÁRIO=====================================================================================================================*/
 .botao{
@@ -158,19 +244,19 @@ td{
 }
 #dados{
     width:35%;
-    height: 40%;
+    height: 30%;
     position: relative;
     left: 400px;
 }
 #endereco{
     width:35%;
-    height: 40%;
+    height: 30%;
     position: relative;
     left: 400px;
 }
 #modelo{
     width:35%;
-    height: 79%;
+    height: 50%;
     bottom: 80%;
     position: relative;
     left:400px;
@@ -278,9 +364,13 @@ fieldset{
     display: block;
     width: 100%;
 }
+#p5{
+    padding-bottom:1px;
+}
 /*=================================================================================================FOOTER=========================================================================================================*/
 footer{
     margin-top:120px;
+    width:100%;
 }
 #copyright{
     background-color: #1B1A52;
@@ -330,9 +420,6 @@ footer{
     background-color: #1B1A52;
     display: flex;
     color: white;
-    max-width: 100%;
-    padding-left:20px;
-    padding-right:20px;
     padding-top: 0;
     text-align: justify;
     position: relative;
@@ -340,13 +427,15 @@ footer{
     bottom:0px;
     margin-bottom:0;
     margin-top: 0;
+    width:100%;
+    right:0;
 }
 .footer-sobre{
     width: 20%;
     margin-top:0;
 }
 #question{
-    margin-left:600px;
+    margin-left:560px;
 }
 .footersobre{
     font-size: 15px;
